@@ -19,7 +19,7 @@ body {
 
   img {
     backface-visibility: hidden;
-    animation: popup 400ms;
+    animation: popup 700ms;
   }
 
   .text,
@@ -102,11 +102,11 @@ body {
     color: color(pr-dark-blue);
     line-height: 1.38;
     margin-bottom: 1.15em;
-    transition: transform 0.3s, opacity 0.2s, ease-in;
+    transition: transform 0.7s, opacity 0.6s, ease-in;
   }
 
   .author {
-    transition: transform 0.3s, opacity 0.2s, ease-in;
+    transition: transform 0.7s, opacity 0.6s, ease-in;
     font-size: var(--f-size-author);
 
     .author__name {
